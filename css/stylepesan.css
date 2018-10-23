@@ -1,5 +1,5 @@
 body{
-    background: #f0e78c;
+    background: #3f51b5;
     font-size: 15px;
     font-family: "Verdana".sans-serif;
     margin: 0;
@@ -27,9 +27,13 @@ body{
 }
 
 #header p{
-  font-weight: 900;
-  color: black;
+  font-weight: 500;
+  color: white;
 
+}
+h2{
+  color: white;
+  margin-bottom: 50px;
 }
 
 .form-container{
@@ -99,8 +103,11 @@ body{
   width: 30%;
   border: 0;
   font-weight: 900;
-  color: black;
+  color: #252525;
   font-size: 15px;
+}
+label{
+  color: #252525;
 }
 
 .label label{
@@ -132,18 +139,20 @@ select{
 }
 
 button[type=submit]{
-  background: #f0e78c;
+  background: #3f51b5;
   border-radius: 10px
   font-family: Arial;
-  color: black;
-  font-size: 13px;
+  color: white;
+  font-size: 15px;
   padding: 5px 20px;
   text-decoration: none;
   float: right;
+  margin-top: 100px;
+  margin-right: 50px;
 }
 
 button[type=submit]:hover{
-  background: grey;
+  background:  #87CEEB;
   text-decoration: none;
 }
 

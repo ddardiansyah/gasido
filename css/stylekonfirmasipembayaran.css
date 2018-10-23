@@ -1,5 +1,5 @@
 body{
-    background: #f0e78c;
+    background:#3f51b5;
     font-size: 15px;
     font-family: "Verdana".sans-serif;
     margin: 0;
@@ -31,8 +31,13 @@ body{
 }
 
 #header p{
-  font-weight: 900;
-  color: black;
+  font-weight: 500;
+  color: white;
+
+}
+#header h2{
+  font-weight: 600;
+  color: white;
 
 }
 
@@ -132,14 +137,33 @@ fieldset{
   text-align: left;
   width: 100%;
   border: 0;
-  font-weight: 900;
-  color: black;
-  font-size: 13px;
+  font-weight: 500;
+  color: #252525;
+  font-size: 20px;
+}
+
+label{
+  margin-top: 50px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  color: #252525;
 }
 
 .label label{
   display: inline-block;
   vertical-align: -webkit-baseline-middle;
+}
+
+h4{
+  margin: 3px;
+  text-align: left;
+  width: 100%;
+  border: 0;
+  font-weight: 700;
+  color: #252525;
+  font-size: 15px;
+
 }
 
 h6{
@@ -149,7 +173,7 @@ h6{
   text-align: left;
   width: 100%;
   border: 0;
-  font-weight: 500x;
+  font-weight: 500;
   color: black;
   font-size: 13px;
 }
@@ -167,14 +191,15 @@ input[type=radio]{
   border-radius: 100%;
   background-color: #ebebebeb;
   outline: 10px;
+
 }
 
 input[type=radio]:focus{
-  border: 2px solid blue;
+  border: 2px solid black;
 }
 
 input[type=checkbox]{
-  margin-top: 2px;
+  margin-top: 20px;
   margin-bottom:  -2px;
   margin-right: 5px;
   appearance: none;
@@ -188,18 +213,20 @@ input[type=checkbox]{
 }
 
 button[type=submit]{
-  background: #f0e78c;
-  border-radius: 10px
+  background: #3f51b5;
+  border-radius: 10px;
   font-family: Arial;
-  color: black;
-  font-size: 13px;
+  color: white;
+  font-size: 15px;
   padding: 5px 20px;
   text-decoration: none;
   float: right;
+  margin-top: 80px;
+  margin-right: 50px;
 }
 
 button[type=submit]:hover{
-  background: grey;
+  background:  #87CEEB;
   text-decoration: none;
 }
 
