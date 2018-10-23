@@ -1,0 +1,17 @@
+.btn-link{
+	color: #FFFF00;
+}
+
+.modal-header{
+	background-color: #499491;
+}
+
+.btn-primary{
+	background-color: #499491;
+	color: #000;
+}
+
+.btn-primary:hover{
+	background-color: #499491;
+	color: #000;
+}
