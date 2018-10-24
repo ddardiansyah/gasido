@@ -1,0 +1,47 @@
+h1{
+	text-align: center;
+	color: #00008B;
+	font-family: "Arial" 
+}
+
+h2{
+	text-align: left;
+	color: #00008B;
+	font-family: 
+}
+
+.PERATURAN_TANPA_SOPIR {
+	text-align: left;
+	font-size: 20px;
+	color: #0000FF
+}
+
+.PERATURAN_DENGAN_SOPIR {
+	text-align: left;
+	font-size: 20px;
+	color: #0000FF 
+}
+
+.PERATURAN_PEMBATALAN {
+	text-align: left;
+	font-size: 20px;
+	color: #0000FF
+}
+
+.AKSES_LAYANAN {
+	text-align: left;
+	font-size: 20px;
+	color: #0000FF 
+}
+
+.TERLARANG {
+	text-align: left;
+	font-size: 20px;
+	color: #0000FF
+}
+
+h3{
+	text-align: center;
+	color: #00008B;
+	font-family: "Arial"
+}
